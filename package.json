@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "build":"docker-compose build && docker-compose up && nodemon bin/ww",
     "start": "nodemon bin/www",
     "prestart": "npm install",
     "pretest": "npm install",
