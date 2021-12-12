@@ -20,7 +20,7 @@ on:
           path: /tmp/.buildx-cache
           key: ${{ runner.os }}-buildx-${{ github.sha }}
           restore-keys: |
-          ${{ runner.os }}-buildx-
+            ${{ runner.os }}-buildx-
 
       -
 
