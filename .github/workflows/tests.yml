@@ -1,8 +1,8 @@
-name: Docker Build
+name: Tests
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ develop ]
 
 jobs:
   test:
@@ -29,9 +29,4 @@ jobs:
         run: npm install
       - name: Ejecuta los test de nuestro proyecto
         run: npm run test
-      - name: Deploy to Heroku
-        env:
-          HEROKU_API_TOKEN: ${{ secrets.HEROKU_API_TOKEN }}
-          HEROKU_APP_NAME: "diplomado-final"
-        if: github.ref == 'refs/heads/main' && job.status == 'success'
-        run: git push https://heroku:$HEROKU_API_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git origin/main:main
+      
