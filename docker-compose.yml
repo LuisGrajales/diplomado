@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  diplomado:
+    build: .
+    ports:
+      - 9000:8000

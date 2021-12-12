@@ -12,7 +12,7 @@
 * Se debe de implementar el ciclo DevOps
 * Implementar Docker solamente en ambiente de desarrollo
 * Se debe de desplegar a Heroku mediante Github actios solo si los tests son aprobatorios
-* Implementar Git-flow
+* ✔️ Implementar Git-flow
 * Implementar Pull Request a Main donde ejecute test
 * All realizar push a main esta debe de desplegarse a Heroku
 * Todos los test deben de cumplirse correctamente

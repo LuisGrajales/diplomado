@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node bin/www",
+    "start": "nodemon bin/www",
     "prestart": "npm install",
     "pretest": "npm install",
     "test": "./node_modules/.bin/mocha test"
@@ -21,6 +21,7 @@
     "mocha-junit-reporter": "1.23.3",
     "mocha-multi-reporters": "1.1.7",
     "morgan": "~1.9.1",
+    "nodemon": "^2.0.15",
     "shortid": "2.2.15",
     "sinon": "9.0.0"
   },
