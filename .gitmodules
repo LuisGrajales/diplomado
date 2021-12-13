@@ -1,0 +1,3 @@
+[submodule "DIPLOMADO"] 
+  path = DIPLOMADO 
+  url = https://github.com/LuisGrajales/diplomado.git
