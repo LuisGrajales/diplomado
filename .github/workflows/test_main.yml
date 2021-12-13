@@ -1,7 +1,9 @@
-name: Tests on Main
+name: Tests
 
 on:
   push:
+    branches: [ main, develop ]
+  pull_request:
     branches: [ main ]
 
 jobs:
