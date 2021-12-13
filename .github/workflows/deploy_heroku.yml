@@ -28,6 +28,8 @@ jobs:
         run: npm install
       - name: Ejecuta los test de nuestro proyecto
         run: npm run test
+  notify:
+    needs: test
   build:
     runs-on: ubuntu-latest
     steps:
