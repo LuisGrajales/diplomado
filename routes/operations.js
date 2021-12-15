@@ -6,6 +6,7 @@ var middleware = require('../middleware');
 
 
 router
+    .get('/', operationController.home)
     .get('/sum', operationController.sum)
     .get('/substract', operationController.substract)
     .get('/multiply', operationController.multiply)
