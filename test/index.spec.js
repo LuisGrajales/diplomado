@@ -36,10 +36,10 @@ describe('express_authentication', () => {
             })
     });
 
-        it('should pass',(done) =>{
-            expect(1).to.equal(1)
-            done()
-        });
+    // it('should pass',(done) =>{
+    //     expect(1).to.equal(1)
+    //     done()
+    // });
     // it('Should generate an API key and add it to file', (done) => {
     //     keyStore(req, res);
     //     setTimeout(() => {
