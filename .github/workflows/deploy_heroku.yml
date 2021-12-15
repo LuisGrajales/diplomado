@@ -2,7 +2,7 @@ name: Deploy to heroku
 
 on:
   workflow_run:
-    workflows: ["Tests"]
+    workflows: ["Tests on Main"]
     types:
       - completed
 
