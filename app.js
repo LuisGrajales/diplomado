@@ -11,6 +11,7 @@ var tasksRouter = require('./routes/tasks');
 var authRouter = require('./routes/auth');
 var paymentRouter = require('./routes/payment');
 var operationRouter = require('./routes/operations');
+var shipmentRouter = require('./routes/shipment');
 
 var app = express();
 
@@ -44,6 +45,7 @@ app.use('/', indexRouter);
 app.use('/tasks', tasksRouter);
 app.use('/payment', paymentRouter);
 app.use('/operation', operationRouter);
+app.use('/shipment', shipmentRouter);
 app.get("/debug-sentry", function mainHandler(req, res) {
     throw new Error("My first Sentry error!");
   });

@@ -1,6 +1,11 @@
 const faker = require('faker');
 
 module.exports = {
+    home: function (req, res) {
+        let home = {'routes': ['/operation/sum','/operation/substract','/operation/multiply','/operation/divide']}
+        res.send(home)
+    },
+
     sum: function (req, res) {
         var num1 = parseInt(faker.finance.amount())
         var num2 = parseInt(faker.finance.amount())
