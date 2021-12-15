@@ -16,7 +16,7 @@
 * ✔️ Implementar Pull Request a Main donde ejecute test
 * ✔️ All realizar push a main esta debe de desplegarse a Heroku
 * Todos los test deben de cumplirse correctamente
-* corregir y detectar errores en el proyecto
+* ✔️ corregir y detectar errores en el proyecto
 * ✔️ Implementar Sentry
 * ✔️ Implementar DataDog (Monitorización) lo veremos en una sesión posterior
 * ✔️ Corregir Payment.controller
@@ -25,5 +25,5 @@
 * realizar los test faltantes
     ✔️ 2 test en shipment
     * 3 test para payment
-    * 4 test para operations
+    ✔️ 4 test para operations
     
