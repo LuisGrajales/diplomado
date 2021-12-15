@@ -18,9 +18,9 @@
 * Todos los test deben de cumplirse correctamente
 * corregir y detectar errores en el proyecto
 * ✔️ Implementar Sentry
-* ✔️Implementar DataDog (Monitorización) lo veremos en una sesión posterior
-* Corregir Payment.controller
-* Completar operations.controller
+* ✔️ Implementar DataDog (Monitorización) lo veremos en una sesión posterior
+* ✔️ Corregir Payment.controller
+* ✔️ Completar operations.controller
 * Realizar lo que pide shipment.controller
 * realizar los test faltantes
     * 2 test en shipment
