@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites name="Mocha Tests" time="0.0000" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2021-12-12T07:18:59" tests="0" time="0.0000" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-12-15T07:59:23" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="express_authentication" timestamp="2021-12-12T07:18:59" tests="1" file="E:\1- Documents\Code\Diplomado\proyecto final\diplomado\test\index.spec.js" time="0.0000" failures="0">
-    <testcase name="express_authentication should pass the test" time="0.0000" classname="should pass the test">
+  <testsuite name="express_authentication" timestamp="2021-12-15T07:59:23" tests="1" file="E:\1- Documents\Code\Diplomado\proyecto final\diplomado\test\index.spec.js" time="0.0000" failures="0">
+    <testcase name="express_authentication should pass" time="0.0000" classname="should pass">
     </testcase>
   </testsuite>
 </testsuites>

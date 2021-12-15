@@ -13,28 +13,28 @@ const Promise = require('bluebird');
 
 chai.use(chaiHttp);
 
-// describe('payment check', () => {
-//     let req, res, next, agent;
+describe('payment check', () => {
+    let req, res, next, agent;
 
-//     beforeEach((done) => {
-//         req = new Request();
-//         res = new Response();
-//         next = sinon.stub();
-//         utils.generatePaymentFile()
-//             .then(() => {
-//                 done();
-//             })
-//     });
+    beforeEach((done) => {
+        req = new Request();
+        res = new Response();
+        next = sinon.stub();
+        utils.generatePaymentFile()
+            .then(() => {
+                done();
+            })
+    });
 
-//     afterEach((done) => {
-//         if (agent) {
-//             agent.close();
-//         }
-//         done();
-//         utils.removeFile(PAYMENT_FILE_PATH)
-//           .then(() => done() )
-//     });
-
+    afterEach((done) => {
+        if (agent) {
+            agent.close();
+        }
+        done();
+        utils.removeFile(PAYMENT_FILE_PATH)
+          .then(() => done() )
+    });
+})
 //     it('Should generate an random price', (done) => {
 //         payment.create(req, res);
 //         setTimeout(() => {
