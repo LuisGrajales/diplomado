@@ -36,20 +36,16 @@ describe('express_authentication', () => {
             })
     });
 
-    // it('should pass',(done) =>{
-    //     expect(1).to.equal(1)
-    //     done()
-    // });
-    // it('Should generate an API key and add it to file', (done) => {
-    //     keyStore(req, res);
-    //     setTimeout(() => {
-    //         utils.getKeysFromFile()
-    //             .then(data => {
-    //                 data.length.should.eql(1);
-    //                 done();
-    //             })
-    //     }, 500);
-    // });
+    it('Should generate an API key and add it to file', (done) => {
+        keyStore(req, res);
+        setTimeout(() => {
+            utils.getKeysFromFile()
+                .then(data => {
+                    data.length.should.eql(1);
+                    done();
+                })
+        }, 500);
+    });
 
     // it('Should generate 5 unique API Keys', done => {
     //     let n = 5;
