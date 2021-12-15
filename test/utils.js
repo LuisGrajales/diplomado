@@ -15,18 +15,14 @@ const readFile = (path) => {
     });
 };
 
-const getKeysFromFile = () => {
-    return readFile(KEY_FILE)
-        .then(data => {
-            return compact(data.split(os.EOL));
-        })
+const getKeysFromFile = async () => {
+    const data = await readFile(KEY_FILE);
+    return compact(data.split(os.EOL));
 };
 
-const getFromFile = (path) => {
-    return readFile(path)
-        .then(data => {
-            return compact(data.split(os.EOL));
-        })
+const getFromFile = async (path) => {
+    const data = await readFile(path);
+    return compact(data.split(os.EOL));
 };
 
 const generateKeysFile = (data) => {

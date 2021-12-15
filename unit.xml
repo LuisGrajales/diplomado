@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0820" tests="6" failures="0">
-  <testsuite name="Root Suite" timestamp="2021-12-15T21:24:29" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.5910" tests="9" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-12-15T22:53:05" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="operations tests" timestamp="2021-12-15T21:24:29" tests="4" file="E:\1- Documents\Code\Diplomado\proyecto final\diplomado\test\operations.spec.js" time="0.0650" failures="0">
-    <testcase name="operations tests operation = sum" time="0.0460" classname="operation = sum">
+  <testsuite name="express_authentication" timestamp="2021-12-15T22:53:05" tests="1" file="E:\1- Documents\Code\Diplomado\proyecto final\diplomado\test\index.spec.js" time="0.5070" failures="0">
+    <testcase name="express_authentication Should generate an API key and add it to file" time="0.5070" classname="Should generate an API key and add it to file">
     </testcase>
-    <testcase name="operations tests operation = substract" time="0.0070" classname="operation = substract">
+  </testsuite>
+  <testsuite name="operations tests" timestamp="2021-12-15T22:53:05" tests="4" file="E:\1- Documents\Code\Diplomado\proyecto final\diplomado\test\operations.spec.js" time="0.0620" failures="0">
+    <testcase name="operations tests operation = sum" time="0.0440" classname="operation = sum">
+    </testcase>
+    <testcase name="operations tests operation = substract" time="0.0060" classname="operation = substract">
     </testcase>
     <testcase name="operations tests operation = multiply" time="0.0060" classname="operation = multiply">
     </testcase>
     <testcase name="operations tests operation = divide" time="0.0060" classname="operation = divide">
     </testcase>
   </testsuite>
-  <testsuite name="Shipment tests" timestamp="2021-12-15T21:24:29" tests="2" file="E:\1- Documents\Code\Diplomado\proyecto final\diplomado\test\shipment.spec.js" time="0.0170" failures="0">
-    <testcase name="Shipment tests Create shipment works" time="0.0070" classname="Create shipment works">
+  <testsuite name="payment check" timestamp="2021-12-15T22:53:05" tests="2" file="E:\1- Documents\Code\Diplomado\proyecto final\diplomado\test\payment.spec.js" time="0.0080" failures="0">
+    <testcase name="payment check Should return 5 promo codes" time="0.0080" classname="Should return 5 promo codes">
     </testcase>
-    <testcase name="Shipment tests Change shipment works" time="0.0100" classname="Change shipment works">
+    <testcase name="payment check Should generate an random price" time="0.0000" classname="Should generate an random price">
+    </testcase>
+  </testsuite>
+  <testsuite name="Shipment tests" timestamp="2021-12-15T22:53:05" tests="2" file="E:\1- Documents\Code\Diplomado\proyecto final\diplomado\test\shipment.spec.js" time="0.0140" failures="0">
+    <testcase name="Shipment tests Create shipment works" time="0.0080" classname="Create shipment works">
+    </testcase>
+    <testcase name="Shipment tests Change shipment works" time="0.0060" classname="Change shipment works">
     </testcase>
   </testsuite>
 </testsuites>
