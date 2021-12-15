@@ -5,7 +5,7 @@ const fs = require('fs');
 const LINE_ENDING = require('os').EOL
 const lineReader = require('line-reader');
 const txtToJson = require("txt-file-to-json");
-const utils = require('../test/utils');
+
 
 module.exports = {
     create: function (req, res) {
